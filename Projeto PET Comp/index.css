@@ -9,13 +9,14 @@ body {
 /* ---------- NAV ---------- */
 nav {
     background-color: #78abe4;
+    
 }
 
 nav a:hover {
     color: blue;
 }
 
-/* ---------- LISTAS (MENU) ---------- */
+/* ---------- LISTAS ---------- */
 ul {
     display: flex;
     justify-content: space-around;
@@ -48,7 +49,7 @@ section {
 
 section img {
     width: 80px;
-    height: 8ch;
+    height: 80px;
 }
 
 /* ---------- FOOTER ---------- */
@@ -96,14 +97,11 @@ p {
     margin-right: auto;
 }
 
-/* ---------- CLASSES UTILITÁRIAS ---------- */
+/* ---------- CLASSES ---------- */
 .centralizar {
     text-align: center;
 }
 
-.container {
-    padding: 50px 50px;
-}
 
 .sobre_o_evento {
     display: flex;         

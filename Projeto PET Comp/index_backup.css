@@ -9,13 +9,14 @@ body {
 /* ---------- NAV ---------- */
 nav {
     background-color: #78abe4;
+    
 }
 
 nav a:hover {
     color: blue;
 }
 
-/* ---------- LISTAS (MENU) ---------- */
+/* ---------- LISTAS ---------- */
 ul {
     display: flex;
     justify-content: space-around;
@@ -32,8 +33,8 @@ a {
 
 /* ---------- HEADER ---------- */
 header img {
-    width: 600px;
-    height: 450px;
+    width: 1200px;
+    height: 720px;
     border: 5px solid rgb(255, 255, 255);
 }
 
@@ -48,7 +49,7 @@ section {
 
 section img {
     width: 80px;
-    height: 8ch;
+    height: 80px;
 }
 
 /* ---------- FOOTER ---------- */
@@ -101,9 +102,6 @@ p {
     text-align: center;
 }
 
-.container {
-    padding: 50px 50px;
-}
 
 .sobre_o_evento {
     display: flex;         
@@ -123,4 +121,38 @@ p {
 html {
     scroll-behavior: smooth;
 }
-q
+
+
+/* --------------- ANIMAÇÃO---------------- */
+
+.imagens {
+    width: 1250px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.imagens ul {
+
+    display: flex;
+    align-items: center;
+    gap:20px;
+    animation: 20s infinite slide linear;        
+}
+
+.imagens img{
+    width: 1200px;
+    
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-2240px);
+    }
+}
+
+.imagens ul:hover {
+    animation-play-state: paused;
+}
