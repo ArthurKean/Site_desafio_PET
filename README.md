@@ -1,1 +1,39 @@
-O site foi desenvolvido como parte do Desafio de Entrada no Programa PET da UFMA, com foco em apresentar de forma clara e organizada as informações sobre o evento. Ele contém:  Header: com o nome do evento, datas, local e menu de navegação (Home, Programação e Inscrições).  Body: seções informativas sobre o evento, incluindo carrossel com imagens, detalhes da programação e informações importantes para os participantes.  Visual Responsivo: design adaptável a diferentes dispositivos, garantindo boa experiência em desktops, tablets e smartphones.  Tecnologias Utilizadas: HTML, CSS e recursos de interação para facilitar a navegação e a compreensão do conteúdo.  O site tem como objetivo centralizar todas as informações do PET em um único local de forma acessível e funcional, servindo como demonstração de habilidades em desenvolvimento web e organização de conteúdo digital.
+Desafio de Entrada PET UFMA
+Sobre o Projeto
+
+Este site foi desenvolvido como parte do Desafio de Entrada no Programa PET da UFMA, com o objetivo de apresentar informações sobre o evento de forma clara, organizada e interativa.
+
+O site serve como demonstração de habilidades em desenvolvimento web, incluindo estruturação de conteúdo, design responsivo e interação básica com o usuário.
+
+Funcionalidades
+
+Header com nome do evento, datas, local e menu de navegação (Home, Programação, Inscrições).
+
+Seções informativas com detalhes do evento, programação e orientações aos participantes.
+
+Carrossel de imagens para destacar o conteúdo visualmente.
+
+Design responsivo, adaptável a desktops, tablets e smartphones.
+
+Tecnologias Utilizadas
+
+HTML5 – estrutura semântica do site.
+
+CSS3 – estilo visual, cores, fontes e layout responsivo.
+
+Git e GitHub – controle de versão e hospedagem do código.
+
+Como Executar
+
+Clone o repositório:
+
+git clone https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git
+
+
+Abra a pasta do projeto no VS Code.
+
+Abra o arquivo index.html em um navegador para visualizar o site.
+
+Objetivo
+
+O site centraliza todas as informações sobre o evento PET UFMA, tornando-as acessíveis e fáceis de entender, enquanto demonstra competências em desenvolvimento web, organização de conteúdo e uso de Git/GitHub.
